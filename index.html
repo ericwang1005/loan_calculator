@@ -6,6 +6,33 @@
     <title>貸款計算器</title>
 </head>
 <body>
-    
+    <h1>貸款計算機</h1>
+    <form action="">
+        <label for="amount">貸款金額</label>
+        <input type="number" name="amount" id="amount">萬
+        </br>
+        <label for="amount">貸款年限</label>
+        <select name="years" id="years">
+            <option value="1">1年</option>
+            <option value="3">3年</option>
+            <option value="5" selected>5年</option>
+            <option value="7">7年</option>
+            <option value="10">10年</option>
+            <option value="20">20年</option>
+            <option value="30">30年</option>
+        </select>
+        <br>
+        <label for="rate">貸款利率</label>
+        <input type="number" step="0.1" name="rate" id="rate" value="2">
+        <br>
+        <input type="checkbox" name="fee" id="fee" checked>手續費(5000)
+        <br>
+        <label for="">計算方式</label>
+        <input type="radio" name="repayment" id="payment1">本息攤還
+        <input type="radio" name="repayment" id="payment2" checked>本金攤還
+        <br>
+        <button type="button">計算</button>
+        <button type="button">清除</button>
+    </form>
 </body>
 </html>
