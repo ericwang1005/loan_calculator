@@ -2,17 +2,19 @@ body{
     background-image: url('https://th.bing.com/th/id/R.2a85f640c8c8982a55654dcb1e8e1837?rik=f7ia%2bhbY01Yz1Q&pid=ImgRaw&r=0');
     background-repeat: no-repeat;
     background-size: cover;
+    font-size: large;
 }
 #main-container{
     width: auto 0;
     margin: 0 3px;
     text-align: center;
+    font-size: larger;
 }
 form{
     background-color: antiquewhite palegoldenrod;
     text-align: center;
     opacity: 1;
-    color: aqua;
+    color: brown;
 }
 #info{
     display: inline-block;
@@ -45,6 +47,5 @@ input,select{
     color: aliceblue;
     display: none;
     background-color: darkgreen 0.5;
-    
 }
 

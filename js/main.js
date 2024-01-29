@@ -18,7 +18,7 @@ function calculate(){
     let amount = amountEl.value*10000;
     let years = yearsEl.value;
     let rate = rateEl.value/100;
-    fee = feeEl.checked ? 5000:0;
+    let fee = feeEl.checked ? 5000:0;
     let rule = payment1El.checked ? 0:1;
     //利息
     let totalInterest = amount*rate*years;
@@ -37,6 +37,6 @@ function calculate(){
     console.log(amount,years,rate,fee,rule,totalInterest,totalAmount);
 }
 function reset(){
-    amountEl.value = '';
+    location.reload();
     console.log('Done');
 }
