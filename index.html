@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>貸款計算器</title>
     <link rel="stylesheet" href="./css/main.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 </head>
 
-<body>
-    <div id="main-container">
+<body >
+    <div id="main-container" >
         <h1 class="title">貸款計算機</h1>
         <form action="">
             <div id="info">
@@ -45,6 +49,20 @@
             <div class="totalAmount"></div>
             總還款利息:
             <div class="totalInterest"></div>
+        </div>
+        <div id="table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>期別</th>
+                        <th>本金</th>
+                        <th>利息</th>
+                        <th>本利和</th>
+                        <th>餘額</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
         </div>
     </div>
     <script src="./js/main.js"></script>
